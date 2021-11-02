@@ -7,7 +7,6 @@ Chinese version: https://zhuanlan.zhihu.com/p/426047353
   - create the repository
 
 ## Table of Contents
-***
 [1. Multi-scale feature learning](#1)<br>
 [2. Super resolution](#2)<br>
 [3. Context-based](#3)<br>
