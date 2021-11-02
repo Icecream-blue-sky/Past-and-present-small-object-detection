@@ -7,14 +7,14 @@ Chinese version: https://zhuanlan.zhihu.com/p/426047353
   - create the repository
 
 ## Table of Contents
-[1. Multi-scale feature learning](#1)
-[2. Super resolution](#2)
-[3. Context-based](#3)
-[4. Data-based](#4)
-[5. Training strategy](#5)
-[6. Special design in detection pipeline](#6)
-[7. Loss reweight](#7)
-<br>
+***
+[1. Multi-scale feature learning](#1)<br>
+[2. Super resolution](#2)<br>
+[3. Context-based](#3)<br>
+[4. Data-based](#4)<br>
+[5. Training strategy](#5)<br>
+[6. Special design in detection pipeline](#6)<br>
+[7. Loss reweight](#7)<br>
 
 <h3 id="1">1. Multi-scale feature learning </h3>
 
