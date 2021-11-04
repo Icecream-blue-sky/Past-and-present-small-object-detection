@@ -3,8 +3,11 @@ Small object detection has long been a difficult and hot topic in computer visio
 Chinese version: https://zhuanlan.zhihu.com/p/426047353
 
 ## Updates
+- 2021/11/4
+  - add one **Context-based** paper: Structure Inference Net.
+  - add one **Special design in detection pipeline** paper: Dot Distance.
 - 2021/11/2
-  - create the repository
+  - create the repository.
 
 ## Table of Contents
 [1. Multi-scale feature learning](#1)<br>
@@ -37,6 +40,8 @@ Chinese version: https://zhuanlan.zhihu.com/p/426047353
 
 <h3 id="3">3. Context-based </h3>
 
+- **Structure Inference Net: Object Detection Using Scene-Level Context and Instance-Level Relationships**[[Paper](https://arxiv.org/abs/1807.00119)][[Code](https://github.com/choasup/SIN)]
+  - Yong Liu, Ruiping Wang, Shiguang Shan, Xilin Chen, **VIPL**, **CVPR 2018**.
 - **Relation Networks for Object Detection**[[Paper](https://arxiv.org/abs/1711.11575)][[Code](https://github.com/msracver/Relation-Networks-for-Object-Detection)]
   - Han Hu, Jiayuan Gu2, Zheng Zhang, Jifeng Dai, Yichen Wei, **Microsoft Research Asia**, **CVPR 2018**.
 - **PyramidBox: A Context-assisted Single Shot Face Detector**[[Paper](https://arxiv.org/abs/1803.07737)][[Code]( https://github.com/PaddlePaddle/models/tree/develop/fluid/face_detection.)]
@@ -60,6 +65,8 @@ Chinese version: https://zhuanlan.zhihu.com/p/426047353
 
 <h3 id="6">6. Special design in detection pipeline </h3>
 
+- **Dot Distance for Tiny Object Detection in Aerial Images**[[Paper](https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/papers/Xu_Dot_Distance_for_Tiny_Object_Detection_in_Aerial_Images_CVPRW_2021_paper.pdf)]
+  - Chang Xu, Jinwang Wang, Wen Yang, Lei Yu, **CVPRW 2021**.
 - **S3FD: Single Shot Scale-invariant Face Detector**[[Paper](https://arxiv.org/abs/1708.05237)][[Code](https://github.com/sfzhang15/SFD)]
   - Shifeng Zhang, Xiangyu Zhu, Zhen Lei∗, Hailin Shi, Xiaobo Wang, Stan Z. Li, **ICCV 2017**.
 - **FaceBoxes: A CPU Real-time Face Detector with High Accuracy**[[Paper](https://arxiv.org/abs/1708.05234)][[Code](https://github.com/sfzhang15/FaceBoxes)]
