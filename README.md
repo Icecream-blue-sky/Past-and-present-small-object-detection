@@ -3,6 +3,8 @@ Small object detection has long been a difficult and hot topic in computer visio
 Chinese version: https://zhuanlan.zhihu.com/p/426047353
 
 ## Updates
+- 2021/11/14
+  - add one **Context-based** paper: Realize your surroundings: Exploiting context information for small object detection. **Good paper, recommend to read**.
 - 2021/11/4
   - add one **Context-based** paper: Structure Inference Net.
   - add one **Special design in detection pipeline** paper: Dot Distance.
@@ -40,6 +42,8 @@ Chinese version: https://zhuanlan.zhihu.com/p/426047353
 
 <h3 id="3">3. Context-based </h3>
 
+- **Realize your surroundings: Exploiting context information for small object detection**[[Paper](https://www.sciencedirect.com/science/article/pii/S0925231220320051)]
+  - Jiaxu Leng, Yihui Ren, Wen Jiang, Xiaoding Sun, Ye Wang, **Neurocomputing 2021**.
 - **Structure Inference Net: Object Detection Using Scene-Level Context and Instance-Level Relationships**[[Paper](https://arxiv.org/abs/1807.00119)][[Code](https://github.com/choasup/SIN)]
   - Yong Liu, Ruiping Wang, Shiguang Shan, Xilin Chen, **VIPL**, **CVPR 2018**.
 - **Relation Networks for Object Detection**[[Paper](https://arxiv.org/abs/1711.11575)][[Code](https://github.com/msracver/Relation-Networks-for-Object-Detection)]
