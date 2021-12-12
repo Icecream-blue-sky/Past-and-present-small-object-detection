@@ -3,6 +3,7 @@ Small object detection has long been a difficult and hot topic in computer visio
 Chinese version: https://zhuanlan.zhihu.com/p/426047353
 
 ## Updates
+- 2021/12/12 paper: Addressing Scale Imbalance for Small Object Detection with Dense Detector, Neurocomputing 2021. **Bad paper, so I decide not to  add it to this repo.**
 - 2021/11/14
   - add one **Context-based** paper: Realize your surroundings: Exploiting context information for small object detection. **Good paper, recommend to read**.
   - add one  **Context-based** paper: Intrinsic Relationship Reasoning for Small Object Detection.
