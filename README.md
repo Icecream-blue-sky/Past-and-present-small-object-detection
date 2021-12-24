@@ -25,6 +25,8 @@ Chinese version: https://zhuanlan.zhihu.com/p/426047353
 
 <h3 id="1">1. Multi-scale feature learning </h3>
 
+- **QueryDet: Cascaded Sparse Query for Accelerating High-Resolution Small Object Detection**[[Paper](https://arxiv.org/abs/2103.09136)][[Code](https://github.com/ChenhongyiYang/QueryDet-PyTorch)]
+  - Chenhongyi Yang*, Zehao Huang, Naiyan Wang, arxiv 2021.
 - **Effective fusion factor in fpn for tiny object detection**[[Paper](https://arxiv.org/abs/2011.02298)][[Code](https://github.com/ucas-vg/Effective-Fusion-Factor)]
   -  Yuqi Gong, Xuehui Yu, Yao Ding, Xiaoke Peng, Jian Zhao, Zhenjun Han, **WACV 2021**.
 - **Augfpn: Improving multi-scale feature learning for object detection**[[Paper](https://arxiv.org/abs/1912.05384)][[Code](https://github.com/Gus-Guo/AugFPN)]
