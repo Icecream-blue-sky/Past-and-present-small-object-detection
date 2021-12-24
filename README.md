@@ -3,6 +3,7 @@ Small object detection has long been a difficult and hot topic in computer visio
 Chinese version: https://zhuanlan.zhihu.com/p/426047353
 
 ## Updates
+- 2021/12/24 add one **Multi-scale feature learning** paper: QueryDet: Cascaded Sparse Query for Accelerating High-Resolution Small Object Detection, arxiv 2021. **Good paper, key contribution is the fast detection speed.**
 - 2021/12/12 paper: Addressing Scale Imbalance for Small Object Detection with Dense Detector, Neurocomputing 2021. **Bad paper, so I decide not to  add it to this repo.**
 - 2021/11/14
   - add one **Context-based** paper: Realize your surroundings: Exploiting context information for small object detection. **Good paper, recommend to read**.
