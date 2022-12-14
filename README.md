@@ -3,6 +3,7 @@ Small object detection has long been a difficult and hot topic in computer visio
 Chinese version: https://zhuanlan.zhihu.com/p/426047353
 
 ## Updates
+- 2022/12/14 add one **Data-based** paper: A full data augmentation pipeline for small object detection based on generative adversarial networks, PR 2023. **Despite the lack of novelty, the proposed data augmentation framework is very complete.**
 - 2022/12/14 add one **Special design in detection pipeline** paper: RFLA: Gaussian Receptive Field based Label Assignment for Tiny Object Detection, ECCV 2022. **Good paper, propose a new label assignment strategy for tiny object. This method is very suitable for detecting extremely small objects (like the object smaller than 8*8 pixels), but it is not suitable for scenes with multi-scale objects.**
 - 2021/12/24 add one **Multi-scale feature learning** paper: QueryDet: Cascaded Sparse Query for Accelerating High-Resolution Small Object Detection, arxiv 2021. **Good paper, the key contribution is the use of P2 feature for one stage detector without increasing the amount of calculation.**
 - 2021/12/12 paper: Addressing Scale Imbalance for Small Object Detection with Dense Detector, Neurocomputing 2021. **Bad paper, so I decide not to  add it to this repo.**
@@ -63,6 +64,9 @@ Chinese version: https://zhuanlan.zhihu.com/p/426047353
 
 <h3 id="4">4. Data-based </h3>
 
+- **A full data augmentation pipeline for small object detection based on
+generative adversarial networks**[[Paper](https://www.sciencedirect.com/science/article/pii/S0031320322004782)]
+  - Brais Bosquet, Daniel Cores, Lorenzo Seidenari, Víctor M. Brea, Manuel Mucientes, Alberto Del Bimbo, **PR 2023**.
 - **Stitcher: Feedback-driven Data Provider for Object Detection**[[Paper](https://ui.adsabs.harvard.edu/abs/2020arXiv200412432C/abstract)][[Code](https://github.com/yukang2017/Stitcher)]
   - Yukang Chen, Peizhen Zhang, Zeming Li, Yanwei Li, Xiangyu Zhang, Gaofeng Meng, Shiming Xiang, Jian Sun, Jiaya Jia, **Megvii Technology**, **CVPR 2020**.
 - **Augmentation for small object detection.**[[Paper](https://arxiv.org/abs/1902.07296)][[Code](https://github.com/gmayday1997/SmallObjectAugmentation)]
