@@ -3,7 +3,8 @@ Small object detection has long been a difficult and hot topic in computer visio
 Chinese version: https://zhuanlan.zhihu.com/p/426047353
 
 ## Updates
-- 2021/12/24 add one **Multi-scale feature learning** paper: QueryDet: Cascaded Sparse Query for Accelerating High-Resolution Small Object Detection, arxiv 2021. **Good paper, key contribution is the fast detection speed.**
+- 2022/12/14 add one **Special design in detection pipeline** paper: RFLA: Gaussian Receptive Field based Label Assignment for Tiny Object Detection, ECCV 2022. **Good paper, propose a new label assignment strategy for tiny object. This method is very suitable for detecting extremely small objects (like the object smaller than 8*8 pixels), but it is not suitable for scenes with multi-scale objects.**
+- 2021/12/24 add one **Multi-scale feature learning** paper: QueryDet: Cascaded Sparse Query for Accelerating High-Resolution Small Object Detection, arxiv 2021. **Good paper, the key contribution is the use of P2 feature for one stage detector without increasing the amount of calculation.**
 - 2021/12/12 paper: Addressing Scale Imbalance for Small Object Detection with Dense Detector, Neurocomputing 2021. **Bad paper, so I decide not to  add it to this repo.**
 - 2021/11/14
   - add one **Context-based** paper: Realize your surroundings: Exploiting context information for small object detection. **Good paper, recommend to read**.
@@ -76,6 +77,8 @@ Chinese version: https://zhuanlan.zhihu.com/p/426047353
 
 <h3 id="6">6. Special design in detection pipeline </h3>
 
+- **RFLA: Gaussian Receptive Field based Label Assignment for Tiny Object Detection**.[[Paper](https://arxiv.org/abs/2208.08738)][[Code](https://github.com/chasel-tsui/mmdet-rfla)]
+  - Chang Xu, Jinwang Wang, Wen Yang, Huai Yu, Lei Yu, and Gui-Song Xia, **ECCV 2022**. 
 - **Dot Distance for Tiny Object Detection in Aerial Images**[[Paper](https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/papers/Xu_Dot_Distance_for_Tiny_Object_Detection_in_Aerial_Images_CVPRW_2021_paper.pdf)]
   - Chang Xu, Jinwang Wang, Wen Yang, Lei Yu, **CVPRW 2021**.
 - **S3FD: Single Shot Scale-invariant Face Detector**[[Paper](https://arxiv.org/abs/1708.05237)][[Code](https://github.com/sfzhang15/SFD)]
