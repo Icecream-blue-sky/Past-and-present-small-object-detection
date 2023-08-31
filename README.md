@@ -3,6 +3,7 @@ Small object detection has long been a difficult and hot topic in computer visio
 Chinese version: https://zhuanlan.zhihu.com/p/426047353
 
 ## Updates
+- 2023/8/31 The author has graduated and no longer studies small object detection, so I stop updating now, thank you for your attention. Good luck!
 - 2022/12/14 add one **Data-based** paper: A full data augmentation pipeline for small object detection based on generative adversarial networks, PR 2023. **Despite the lack of novelty, the proposed data augmentation framework is very complete.**
 - 2022/12/14 add one **Special design in detection pipeline** paper: RFLA: Gaussian Receptive Field based Label Assignment for Tiny Object Detection, ECCV 2022. **Good paper, propose a new label assignment strategy for tiny object. This method is very suitable for detecting extremely small objects (like the object smaller than 8*8 pixels), but it is not suitable for scenes with multi-scale objects.**
 - 2021/12/24 add one **Multi-scale feature learning** paper: QueryDet: Cascaded Sparse Query for Accelerating High-Resolution Small Object Detection, arxiv 2021. **Good paper, the key contribution is the use of P2 feature for one stage detector without increasing the amount of calculation.**
